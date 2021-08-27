@@ -12,10 +12,10 @@ function Header() {
                     <IoMdSearch style={{backgroundColor:"blueviolet",color:"white",height:"40px",width:"40px" ,marginLeft:"0px"}} />
             </div>
             <div className="header_right">
-                <a href=" "><NotificationsNoneTwoToneIcon style={{height:"40px",width:"40px"}} /></a>
-                <a href=" "><EmailTwoToneIcon style={{height:"40px",width:"40px"}} /></a>
-                <p style={{marginTop:"10px"}}>Priyansh Singh</p>
-                <img src="/DSC_1247.JPG" alt="" className="round_image"  style={{marginLeft:"10px"}} />
+                <a href=" "><NotificationsNoneTwoToneIcon style={{height:"8vh",width:"8vh"}} /></a>
+                <a href=" "><EmailTwoToneIcon style={{height:"8vh",width:"8vh"}} /></a>
+                <p style={{marginTop:"10px",marginLeft:"4vh"}}>Priyansh Singh</p>
+                <img src="/DSC_1247.JPG" alt="" className="round_image" style={{marginLeft:"2vh"}}  />
             </div>
         </div>
     )
