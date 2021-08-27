@@ -1,0 +1,79 @@
+.section
+{
+    margin-top: -53px;
+    display: flex;   
+    justify-content:start;
+    background: whitesmoke;
+    .dashboard
+    {
+        height: 100%;
+        width:25%;
+        background-color: blueviolet;
+        color: white;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        hr
+        {
+            color:black;
+            width:50%;
+            text-align:center;
+            margin:20px auto 0;
+            align-items: center;
+
+        }
+        h4
+        {
+            color: white;
+            align-items: center;
+        }
+        .dashboard_body
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h6
+            {
+                color:whitesmoke;
+            }
+            h4
+            {
+                color: white;
+            }
+        }
+    }
+    .body
+    {
+        h3
+        {
+            margin:5%;
+        }
+        .body_center
+        {
+            margin:80px;
+            text-align: center;
+            align-items: center;
+            .body_text
+            {
+                display: flex;
+                input
+                {
+                    height: 40px;
+                    width: 70%;
+                }
+                button
+                {
+                    background-color: blueviolet;
+                    color: white;
+                    text-align: center;
+                    border: none;
+                    outline: none;
+                    height: 40px;
+                    width: 60px;
+                }
+            }
+        }
+    }
+}
